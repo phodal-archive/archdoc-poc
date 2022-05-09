@@ -1,7 +1,6 @@
 
 plugins {
-    kotlin("multiplatform") version "1.7.20-dev-947"
-//    kotlin("multiplatform") version "1.6.20"
+    kotlin("multiplatform") version "1.7.20-dev-853"
     application
 }
 
@@ -53,21 +52,21 @@ kotlin {
         val jvmMain by getting {
             apply(plugin = "org.jetbrains.kotlin.jupyter.api")
             dependencies {
-                implementation("org.jetbrains.kotlin:kotlin-compiler-embeddable:1.7.20-dev-947")
-                implementation("org.jetbrains.kotlin:kotlin-scripting-compiler-impl:1.7.20-dev-947")
-                implementation("org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:1.7.20-dev-947")
-                implementation("org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:1.7.20-dev-947")
-                implementation("org.jetbrains.kotlin:kotlin-scripting-ide-services:1.7.20-dev-947")
-                implementation("org.jetbrains.kotlin:kotlin-scripting-dependencies:1.7.20-dev-947")
-                implementation("org.jetbrains.kotlin:kotlin-scripting-dependencies-maven-all:1.7.20-dev-947")
-                implementation("org.jetbrains.kotlin:kotlin-script-util:1.7.20-dev-947")
-                implementation("org.jetbrains.kotlin:kotlin-scripting-common:1.7.20-dev-947")
-                implementation("org.jetbrains.kotlin:kotlin-scripting-jvm:1.7.20-dev-947")
-                implementation("org.jetbrains.kotlin:kotlin-script-runtime:1.7.20-dev-947")
+                implementation("org.jetbrains.kotlin:kotlin-compiler-embeddable:1.7.20-dev-853")
+                implementation("org.jetbrains.kotlin:kotlin-scripting-compiler-impl:1.7.20-dev-853")
+                implementation("org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:1.7.20-dev-853")
+                implementation("org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:1.7.20-dev-853")
+                implementation("org.jetbrains.kotlin:kotlin-scripting-ide-services:1.7.20-dev-853")
+                implementation("org.jetbrains.kotlin:kotlin-scripting-dependencies:1.7.20-dev-853")
+                implementation("org.jetbrains.kotlin:kotlin-scripting-dependencies-maven-all:1.7.20-dev-853")
+                implementation("org.jetbrains.kotlin:kotlin-script-util:1.7.20-dev-853")
+                implementation("org.jetbrains.kotlin:kotlin-scripting-common:1.7.20-dev-853")
+                implementation("org.jetbrains.kotlin:kotlin-scripting-jvm:1.7.20-dev-853")
+                implementation("org.jetbrains.kotlin:kotlin-script-runtime:1.7.20-dev-853")
 
-                implementation("org.jetbrains.kotlin:kotlin-reflect:1.7.20-dev-947")
-                implementation("org.jetbrains.kotlin:kotlin-reflect:1.7.20-dev-947")
-                implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20-dev-947")
+                implementation("org.jetbrains.kotlin:kotlin-reflect:1.7.20-dev-853")
+                implementation("org.jetbrains.kotlin:kotlin-reflect:1.7.20-dev-853")
+                implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20-dev-853")
 
                 implementation("io.ktor:ktor-server-netty:1.6.7")
                 implementation("io.ktor:ktor-html-builder:1.6.7")
