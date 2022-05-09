@@ -26,8 +26,6 @@ internal class DslTest {
         val resolutionInfoProvider = EmptyResolutionInfoProvider
         val repl = ReplForJupyterImpl(resolutionInfoProvider, classpath)
 
-//        val embeddedClasspath: List<File> = System.getProperty("java.class.path").split(File.pathSeparator).map(::File)
-
         fun eval(code: Code, displayHandler: DisplayHandler? = null, jupyterId: Int = -1, storeHistory: Boolean = true) =
             repl.eval(EvalRequestData(code, displayHandler, jupyterId, storeHistory))
 
