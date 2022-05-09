@@ -1,0 +1,42 @@
+# IDEA folder except one project dictionary
+/.idea/*
+!/.idea/dictionaries
+/.idea/dictionaries/*
+!/.idea/dictionaries/ProjectDictionary.xml
+
+# IDEA folders in folders with python ptojects
+/distrib/.idea/**
+/distrib-util/.idea/**
+
+# IDEA ignored file formats
+*.iml
+
+# Folders with build files
+out/
+/build/
+/build-plugin/**/.idea/
+/build-plugin/**/build/
+!/build-plugin/**/src/build/
+/*jupyter*/*/build/
+/api-examples/*/build/
+/teamcity-artifacts/
+
+# Folder with library descriptors
+/libraries/
+
+# Gradle caches and internal files
+.gradle/
+
+# Project Python virtual environments
+/venv/
+/distrib/venv/
+
+# Jupyter notebooks checkpoints
+**/.ipynb_checkpoints
+
+# Jupyter log files
+samples/debug.log
+
+# MacOS attributes files
+*.DS_Store
+/buildSrc/
