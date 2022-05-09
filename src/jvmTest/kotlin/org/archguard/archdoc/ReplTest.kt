@@ -18,21 +18,34 @@ internal class DslTest {
         return ReplForJupyterImpl(resolutionInfoProvider, embeddedClasspath, isEmbedded = true)
     }
 
+    private val repl = makeEmbeddedRepl()
+
+    fun eval(code: Code, displayHandler: DisplayHandler? = null, jupyterId: Int = -1, storeHistory: Boolean = true) =
+        repl.eval(EvalRequestData(code, displayHandler, jupyterId, storeHistory))
+
     @Test
     internal fun simple_eval() {
-        val repl = makeEmbeddedRepl()
-
-        fun eval(
-            code: Code,
-            displayHandler: DisplayHandler? = null,
-            jupyterId: Int = -1,
-            storeHistory: Boolean = true
-        ) =
-            repl.eval(EvalRequestData(code, displayHandler, jupyterId, storeHistory))
-
         eval("val x = 3")
         val res = eval("x*2")
         res.resultValue shouldBe 6
+    }
+
+    @Test
+    internal fun local_file() {
+        eval(
+            """
+            @file:DependsOn("fixtures/doc-executor-1.7.0.jar")
+            import org.archguard.dsl.*
+            var layer = layered {
+                prefixId("org.archguard")
+                component("controller") dependentOn component("service")
+                组件("service") 依赖于 组件("repository")
+            }
+            """
+        )
+
+        val res = eval("layer.components().size")
+        res.resultValue shouldBe 3
     }
 
 }
