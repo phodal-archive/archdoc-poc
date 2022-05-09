@@ -1,5 +1,7 @@
+
 plugins {
-    kotlin("multiplatform") version "1.6.20"
+    kotlin("multiplatform") version "1.7.20-dev-947"
+//    kotlin("multiplatform") version "1.6.20"
     application
 }
 
@@ -9,15 +11,15 @@ version = "1.0-SNAPSHOT"
 repositories {
     mavenCentral()
     maven("https://maven.pkg.jetbrains.space/public/p/kotlinx-html/maven")
-    maven(" https://maven.pkg.jetbrains.space/kotlin/p/kotlin/dev/")
+    maven("https://maven.pkg.jetbrains.space/kotlin/p/kotlin/dev")
 }
 
 buildscript {
     repositories {
-        maven {
-            url = uri("https://plugins.gradle.org/m2/")
-        }
+        maven("https://plugins.gradle.org/m2/")
+        maven("https://maven.pkg.jetbrains.space/kotlin/p/kotlin/dev")
     }
+
     dependencies {
         classpath("org.jetbrains.kotlin:kotlin-jupyter-api-gradle-plugin:0.11.0-84")
     }
