@@ -1,7 +1,6 @@
 package org.archguard.archdoc
 
 import io.kotest.matchers.shouldBe
-import jupyter.kotlin.DependsOn
 import org.jetbrains.kotlinx.jupyter.EvalRequestData
 import org.jetbrains.kotlinx.jupyter.ReplForJupyter
 import org.jetbrains.kotlinx.jupyter.ReplForJupyterImpl
