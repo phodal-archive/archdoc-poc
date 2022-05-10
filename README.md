@@ -1,5 +1,7 @@
 # ArchDoc
 
+Jupyter Demo: [Sample](sample.ipynb)
+
 ## Tasks
 
 Kernel with [https://github.com/Kotlin/kotlin-jupyter](https://github.com/Kotlin/kotlin-jupyter)
