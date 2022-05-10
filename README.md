@@ -29,7 +29,11 @@ layered {
 
 ## Setup
 
-1. setup jupyter with Kotlin: [https://github.com/Kotlin/kotlin-jupyter](https://github.com/Kotlin/kotlin-jupyter)
+1. setup jupyter with Kotlin: [https://github.com/Kotlin/kotlin-jupyter](https://github.com/Kotlin/kotlin-jupyter) 
+   1. with Conda
+      - download from [https://repo.anaconda.com/](https://repo.anaconda.com/) 
+      - `conda install -c jetbrains kotlin-jupyter-kernel`
+   2. with pip: `pip install kotlin-jupyter-kernel` 
 2. save with `.ipynb` for local file
 3. try editor api ?
 4. analysis editor api?
