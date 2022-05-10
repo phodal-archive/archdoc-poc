@@ -20,7 +20,7 @@ buildscript {
     }
 
     dependencies {
-        classpath("org.jetbrains.kotlin:kotlin-jupyter-api-gradle-plugin:0.11.0-84")
+        classpath("org.jetbrains.kotlin:kotlin-jupyter-api-gradle-plugin:0.11.0-87")
     }
 }
 
@@ -52,6 +52,9 @@ kotlin {
         val jvmMain by getting {
             apply(plugin = "org.jetbrains.kotlin.jupyter.api")
             dependencies {
+                implementation("org.jetbrains.kotlinx:kotlin-jupyter-api:0.11.0-87")
+                implementation("org.jetbrains.kotlinx:kotlin-jupyter-kernel:0.11.0-87")
+
                 implementation("io.ktor:ktor-server-netty:1.6.7")
                 implementation("io.ktor:ktor-html-builder:1.6.7")
                 implementation("org.jetbrains.kotlinx:kotlinx-html-jvm:0.7.2")
