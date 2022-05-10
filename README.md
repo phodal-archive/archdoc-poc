@@ -14,6 +14,7 @@ UI with [https://github.com/jupyterlab/jupyterlab](https://github.com/jupyterlab
   - Parser: `marked`
   - Math: `mathjax2`
 - [ ] Archdoc DSL
+- [ ] Archdoc Server
 
 ## DSL
 
@@ -25,5 +26,14 @@ layered {
     组件("service") 依赖于 组件("repository")
 }
 ```
+
+## Setup
+
+1. setup jupyter with Kotlin: [https://github.com/Kotlin/kotlin-jupyter](https://github.com/Kotlin/kotlin-jupyter)
+2. save with `.ipynb` for local file
+3. try editor api ?
+4. analysis editor api?
+5. design poc editor
+
 
 
