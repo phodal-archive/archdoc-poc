@@ -17,6 +17,9 @@ UI with [https://github.com/jupyterlab/jupyterlab](https://github.com/jupyterlab
   - Math: `mathjax2`
 - [ ] Archdoc DSL
 - [ ] Archdoc Server
+- [ ] Markdown Parser
+  - [ ] [Kotlin markdown](https://github.com/JetBrains/markdown)
+  - [ ] [flexmark-java](https://github.com/vsch/flexmark-java)
 
 Backend:
 

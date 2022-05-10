@@ -1,4 +1,3 @@
-
 plugins {
     kotlin("multiplatform") version "1.7.20-dev-853"
     application
@@ -43,7 +42,11 @@ kotlin {
         }
     }
     sourceSets {
-        val commonMain by getting
+        val commonMain by getting {
+            dependencies {
+                implementation("org.jetbrains:markdown:0.3.1")
+            }
+        }
         val commonTest by getting {
             dependencies {
                 implementation(kotlin("test"))
