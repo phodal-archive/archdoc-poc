@@ -1,14 +1,18 @@
 # ArchDoc
 
-with [https://github.com/Kotlin/kotlin-jupyter](https://github.com/Kotlin/kotlin-jupyter)
-
 ## Tasks
 
+Kernel with [https://github.com/Kotlin/kotlin-jupyter](https://github.com/Kotlin/kotlin-jupyter)
+
+UI with [https://github.com/jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab)
 
 - [x] REPL tests
 - [x] basic DSL design
 - [ ] jupyter like markdown support
 - [ ] Archdoc Editor
+  - CodeMirror or Monaco Editor
+  - Parser: `marked`
+  - Math: `mathjax2`
 - [ ] Archdoc DSL
 
 ## DSL
