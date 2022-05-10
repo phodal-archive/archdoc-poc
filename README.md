@@ -2,6 +2,15 @@
 
 with [https://github.com/Kotlin/kotlin-jupyter](https://github.com/Kotlin/kotlin-jupyter)
 
+## Tasks
+
+
+- [x] REPL tests
+- [x] basic DSL design
+- [ ] jupyter like markdown support
+- [ ] Archdoc Editor
+- [ ] Archdoc DSL
+
 ## DSL
 
 ```kotlin
@@ -12,3 +21,5 @@ layered {
     组件("service") 依赖于 组件("repository")
 }
 ```
+
+
