@@ -17,7 +17,7 @@ internal class DslTest {
     internal fun local_file() {
         compiler.eval(
             """
-            @file:DependsOn("fixtures/doc-executor-1.7.0.jar")
+            @file:DependsOn("org.archguard.scanner:doc-executor:2.0.0-alpha.2")
             import org.archguard.dsl.*
             var layer = layered {
                 prefixId("org.archguard")
@@ -29,6 +29,9 @@ internal class DslTest {
 
         val res = compiler.eval("layer.components().size")
         res.resultValue shouldBe 3
+
+        val name = compiler.eval("layer.components()[0].name")
+        name.resultValue shouldBe "controller"
     }
 
 }

@@ -16,6 +16,10 @@ UI with [https://github.com/jupyterlab/jupyterlab](https://github.com/jupyterlab
 - [ ] Archdoc DSL
 - [ ] Archdoc Server
 
+Backend:
+
+- [ ] Backend CRUD DSL
+
 ## DSL
 
 ```kotlin
