@@ -12,11 +12,14 @@ UI with [https://github.com/jupyterlab/jupyterlab](https://github.com/jupyterlab
 - [x] basic DSL design
 - [ ] jupyter like markdown support
 - [ ] Archdoc Editor
-  - CodeMirror or Monaco Editor
-  - Parser: `marked`
-  - Math: `mathjax2`
+  - [ ] CodeMirror or Monaco Editor
+  - [ ] Parser: `marked`
+  - [ ] Math: `mathjax2`
 - [ ] Archdoc DSL
 - [ ] Archdoc Server
+  - [ ] Jupyter Kernel Server with Kotlin
+     - [ ] Kotlin Jupyter Protocol Server (Socket)
+  - [ ] Jupyter Protocol for frontend
 - [ ] Markdown Parser
   - [ ] [Kotlin markdown](https://github.com/JetBrains/markdown)
   - [ ] [flexmark-java](https://github.com/vsch/flexmark-java)
