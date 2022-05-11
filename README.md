@@ -20,6 +20,10 @@ UI with [https://github.com/jupyterlab/jupyterlab](https://github.com/jupyterlab
 - [ ] Markdown Parser
   - [ ] [Kotlin markdown](https://github.com/JetBrains/markdown)
   - [ ] [flexmark-java](https://github.com/vsch/flexmark-java)
+- [ ] Online GraphEngine
+  - [ ] ArchGuard Graph
+  - [ ] with D3.js ?
+  - [ ] with Echart.js ?
 
 Backend:
 
