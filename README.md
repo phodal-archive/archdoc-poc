@@ -20,6 +20,7 @@ UI with [https://github.com/jupyterlab/jupyterlab](https://github.com/jupyterlab
   - [ ] Jupyter Kernel Server with Kotlin
      - [ ] Kotlin Jupyter Protocol Server (Socket)
   - [ ] Jupyter Protocol for frontend
+  - [ ] magic (%) support (ext_plugins) (%%archdoc)
 - [ ] Markdown Parser
   - [ ] [Kotlin markdown](https://github.com/JetBrains/markdown)
   - [ ] [flexmark-java](https://github.com/vsch/flexmark-java)

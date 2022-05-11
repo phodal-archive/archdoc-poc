@@ -1,3 +1,5 @@
+package markdown
+
 class ArchdocMarkdownParser {
 
 }

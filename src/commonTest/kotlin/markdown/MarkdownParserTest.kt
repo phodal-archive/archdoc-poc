@@ -1,3 +1,5 @@
+package markdown
+
 import kotlin.test.Test
 import org.intellij.markdown.flavours.commonmark.CommonMarkFlavourDescriptor
 import org.intellij.markdown.parser.MarkdownParser
