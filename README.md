@@ -132,5 +132,13 @@ database
 4. analysis editor api?
 5. design poc editor
 
+## Resources
+
+[Jupyter Notebook](https://docs.jupyter.org/en/latest/projects/architecture/content-architecture.html)
+
+![Basic Architecture](https://docs.jupyter.org/en/latest/_images/notebook_components.png)
+
+![Overview](https://docs.jupyter.org/en/latest/_images/repos_map.png)
+
 
 
