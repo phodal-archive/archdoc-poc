@@ -29,6 +29,22 @@ Backend:
 
 - [ ] Backend CRUD DSL
 
+Spike:
+
+- [ ] Apache Calcite (for SQL parser)
+  - JAVAC for AST 
+  - Janino, java compiler
+- [ ] Apache Beam (for pipeline model)
+- [ ] Apache Spark (for pipeline design)
+
+Apache Spark sample
+
+```java
+Dataset df = spark.read().json("logs.json");
+df.where("age > 21")
+  .select("name.first").show();
+```
+
 ## DSL
 
 ```kotlin
