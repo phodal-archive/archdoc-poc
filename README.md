@@ -70,7 +70,7 @@ class("java.util.Map") only accessed(["com.phodal.pepper.refactor.staticclass"])
 class(implementation "BaseParser")::name should not contains "Lexer";
 ```
 
-### SQL-like Query
+### SQL-like Query? LINQ? 
 
 [](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html) like:
 
@@ -94,6 +94,26 @@ aggDF
   .start();
 
 spark.sql("select * from aggregates").show();   // interactively query in-memory table
+```
+
+
+libs:
+
+- [https://github.com/kotlin-orm/ktorm](https://github.com/kotlin-orm/ktorm)
+- [JetBrains Exposed](https://github.com/JetBrains/Exposed)
+
+KtORM sample:
+
+```kotlin
+val t = Employees.aliased("t")
+database
+    .from(t)
+    .select(t.departmentId, avg(t.salary))
+    .groupBy(t.departmentId)
+    .having { avg(t.salary) greater 100.0 }
+    .forEach { row -> 
+        println("${row.getInt(1)}:${row.getDouble(2)}")
+    }
 ```
 
 ## Setup
