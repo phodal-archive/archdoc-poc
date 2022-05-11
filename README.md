@@ -32,9 +32,10 @@ Backend:
 ## DSL
 
 ```kotlin
-layered {
+@file:DependsOn("org.archguard.scanner:doc-executor:2.0.0-alpha.2")
+import org.archguard.dsl.*
+var layer = layered {
     prefixId("org.archguard")
-
     component("controller") dependentOn component("service")
     组件("service") 依赖于 组件("repository")
 }
