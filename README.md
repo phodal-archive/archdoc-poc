@@ -36,6 +36,11 @@ Graph Features:
    - [ ] UML with mermaid
 -[ ] custom Graph Engine
 
+Frontend:
+
+- [ ] Componentless Architecture with plugins
+   - [ ] every plugin as WebComponents
+- [ ] plugin Component API design
 
 Backend:
 
