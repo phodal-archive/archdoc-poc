@@ -15,6 +15,7 @@ UI with [https://github.com/jupyterlab/jupyterlab](https://github.com/jupyterlab
   - [ ] Parser: `marked`
   - [ ] Math: `mathjax2`
 - [ ] Archdoc Server
+  - [ ] Java kernel with [https://github.com/twosigma/beakerx](https://github.com/twosigma/beakerx)
   - [ ] Jupyter Kernel Server with Kotlin
      - [ ] Kotlin Jupyter Protocol Server (Socket)
   - [ ] Jupyter Protocol for frontend
