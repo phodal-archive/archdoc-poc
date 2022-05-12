@@ -10,12 +10,10 @@ UI with [https://github.com/jupyterlab/jupyterlab](https://github.com/jupyterlab
 
 - [x] REPL tests
 - [x] basic DSL design
-- [ ] jupyter like markdown support
 - [ ] Archdoc Editor
   - [ ] CodeMirror or Monaco Editor
   - [ ] Parser: `marked`
   - [ ] Math: `mathjax2`
-- [ ] Archdoc DSL
 - [ ] Archdoc Server
   - [ ] Jupyter Kernel Server with Kotlin
      - [ ] Kotlin Jupyter Protocol Server (Socket)
@@ -29,6 +27,14 @@ UI with [https://github.com/jupyterlab/jupyterlab](https://github.com/jupyterlab
   - [ ] with D3.js ?
   - [ ] with Echart.js ?
 
+DSL:
+
+- [ ] Backend CRUD DSL
+- [ ] Linter DSL
+- [ ] Scanner DSL
+- [ ] Architecture DSL
+- [ ] Governance DSL
+
 Graph Features:
 
 - [ ] UML
@@ -41,10 +47,6 @@ Frontend:
 - [ ] Componentless Architecture with plugins
    - [ ] every plugin as WebComponents
 - [ ] plugin Component API design
-
-Backend:
-
-- [ ] Backend CRUD DSL
 
 Spike:
 
