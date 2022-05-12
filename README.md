@@ -160,5 +160,27 @@ database
 
 ![Overview](https://docs.jupyter.org/en/latest/_images/repos_map.png)
 
+### Kotlin CLI params
+
+
+`java -jar build/distrib-build/run_kotlin_kernel/jars/kotlin-jupyter-kernel-0.11.0-100500.jar  sample.json`
+
+
+config
+
+```
+{
+  "control_port": 50160,
+  "shell_port": 57503,
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "stdin_port": 52597,
+  "hb_port": 42540,
+  "ip": "127.0.0.1",
+  "iopub_port": 40885,
+  "key": "a0436f6c-1916-498b-8eb9-e81ab9368e84"
+}
+```
+
 
 
