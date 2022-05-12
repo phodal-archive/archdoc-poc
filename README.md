@@ -10,6 +10,8 @@ UI with [https://github.com/jupyterlab/jupyterlab](https://github.com/jupyterlab
 
 - [x] REPL tests
 - [x] basic DSL design
+- [ ] Frontend Samples
+   - [ ] [https://github.com/datalayer/jupyter-react](https://github.com/datalayer/jupyter-react)
 - [ ] Archdoc Editor
   - [ ] CodeMirror or Monaco Editor
   - [ ] Parser: `marked`
