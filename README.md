@@ -152,6 +152,8 @@ database
 
 ## Resources
 
+[https://github.com/nteract/nteract](https://github.com/nteract/nteract) is an open-source organization committed to creating fantastic interactive computing experiences that allow people to collaborate with ease.
+
 [Jupyter Notebook](https://docs.jupyter.org/en/latest/projects/architecture/content-architecture.html)
 
 ![Basic Architecture](https://docs.jupyter.org/en/latest/_images/notebook_components.png)
