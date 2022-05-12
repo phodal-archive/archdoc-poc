@@ -29,6 +29,14 @@ UI with [https://github.com/jupyterlab/jupyterlab](https://github.com/jupyterlab
   - [ ] with D3.js ?
   - [ ] with Echart.js ?
 
+Graph Features:
+
+- [ ] UML
+   - [ ] by extensions? like [yUML](https://yuml.me/), websequencediagrams ?
+   - [ ] UML with mermaid
+-[ ] custom Graph Engine
+
+
 Backend:
 
 - [ ] Backend CRUD DSL
