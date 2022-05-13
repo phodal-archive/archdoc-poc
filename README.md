@@ -20,7 +20,9 @@ UI with [https://github.com/jupyterlab/jupyterlab](https://github.com/jupyterlab
   - [ ] Java kernel with [https://github.com/twosigma/beakerx](https://github.com/twosigma/beakerx)
   - [ ] Jupyter Kernel Server with Kotlin
      - [ ] Kotlin Jupyter Protocol Server (Socket)
-  - [ ] Jupyter Protocol for frontend
+  - [ ] Jupyter Protocol for frontend: [jmp](https://github.com/n-riesco/jmp)
+     - [ ] zeromq
+     - [ ] websocket
   - [ ] magic (%) support (ext_plugins) (%%archdoc)
 - [ ] Markdown Parser
   - [ ] [Kotlin markdown](https://github.com/JetBrains/markdown)
