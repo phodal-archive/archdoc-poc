@@ -55,6 +55,12 @@ kotlin {
         val jvmMain by getting {
             apply(plugin = "org.jetbrains.kotlin.jupyter.api")
             dependencies {
+                implementation("io.ktor:ktor-server-core:2.0.1")
+                implementation("io.ktor:ktor-server-netty:2.0.1")
+                implementation("io.ktor:ktor-server-websockets:2.0.1")
+
+                implementation("ch.qos.logback:logback-classic:1.2.11")
+
                 implementation("org.jetbrains.kotlinx:kotlin-jupyter-api:0.11.0-87")
                 implementation("org.jetbrains.kotlinx:kotlin-jupyter-kernel:0.11.0-87")
 
