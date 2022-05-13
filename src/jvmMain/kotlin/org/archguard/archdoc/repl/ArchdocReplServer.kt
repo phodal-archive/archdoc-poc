@@ -1,12 +1,10 @@
 package org.archguard.archdoc.repl
 
 import kotlinx.serialization.Serializable
-import org.jetbrains.kotlinx.jupyter.compiler.util.EvaluatedSnippetMetadata
 
 @Serializable
 data class ReplResult(
-    val resultValue: Any?,
-    val metadata: EvaluatedSnippetMetadata = EvaluatedSnippetMetadata.EMPTY
+    val resultValue: String
 )
 
 // todo: setup websocket server
@@ -25,8 +23,7 @@ class ArchdocReplServer {
         val result = compiler.eval(code, null, id)
 
         return ReplResult(
-            result.resultValue,
-            result.metadata
+            result.resultValue.toString()
         )
     }
 }

@@ -1,6 +1,6 @@
 package org.archguard.archdoc
 
-import io.ktor.server.application.Application
+import io.ktor.server.application.*
 import org.archguard.archdoc.plugins.configureRouting
 import org.archguard.archdoc.plugins.configureSockets
 
