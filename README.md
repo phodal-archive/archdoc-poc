@@ -18,6 +18,7 @@ UI with [https://github.com/jupyterlab/jupyterlab](https://github.com/jupyterlab
   - [ ] Math: `mathjax2`
 - [ ] Archdoc Server
   - [ ] Java kernel with [https://github.com/twosigma/beakerx](https://github.com/twosigma/beakerx)
+  - [ ] Zeppelin Interpreter
   - [ ] Jupyter Kernel Server with Kotlin
      - [ ] Kotlin Jupyter Protocol Server (Socket)
   - [ ] Jupyter Protocol for frontend: [jmp](https://github.com/n-riesco/jmp)
@@ -185,4 +186,9 @@ config
 ```
 
 
+### Zeppelin
+
+> In this section, we will explain the role of interpreters, interpreter groups and interpreter settings in Zeppelin. The concept of Zeppelin interpreters allows any language or data-processing backend to be plugged into Zeppelin. Currently, Zeppelin supports many interpreters such as Scala (with Apache Spark), Python (with Apache Spark), Spark SQL, Hive, JDBC, Markdown, Shell and so on.
+
+A Zeppelin interpreter is a plug-in which enables Zeppelin users to use a specific language/data-processing-backend. For example, to use Scala code in Zeppelin, you would use the `%spark` interpreter.
 
