@@ -5,31 +5,37 @@ import io.ktor.websocket.*
 import io.ktor.server.application.*
 import io.ktor.server.routing.*
 import io.ktor.server.websocket.*
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
+import org.archguard.archdoc.repl.ArchdocReplServer
+import org.archguard.archdoc.repl.ReplContext
 import java.time.*
 import java.util.*
 import kotlin.collections.LinkedHashSet
 
 fun Application.configureSockets() {
+    val replServer = ArchdocReplServer()
+    val context = ReplContext()
+
     install(WebSockets) {
         pingPeriod = Duration.ofSeconds(15)
         timeout = Duration.ofSeconds(15)
         maxFrameSize = Long.MAX_VALUE
         masking = false
     }
+
     routing {
         val connections = Collections.synchronizedSet<Connection?>(LinkedHashSet())
-        webSocket("/chat") {
-            println("Adding user!")
+        webSocket("/") {
             val thisConnection = Connection(this)
             connections += thisConnection
             try {
-                send("You are connected! There are ${connections.count()} users here.")
                 for (frame in incoming) {
                     frame as? Frame.Text ?: continue
                     val receivedText = frame.readText()
-                    val textWithUsername = "[${thisConnection.name}]: $receivedText"
                     connections.forEach {
-                        it.session.send(textWithUsername)
+                        val content = replServer.eval(receivedText).toString()
+                        it.session.send(Json.encodeToString(content))
                     }
                 }
             } catch (e: Exception) {

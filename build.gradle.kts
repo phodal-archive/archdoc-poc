@@ -61,6 +61,8 @@ kotlin {
 
                 implementation("ch.qos.logback:logback-classic:1.2.11")
 
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2")
+
                 implementation("org.jetbrains.kotlinx:kotlin-jupyter-api:0.11.0-87")
                 implementation("org.jetbrains.kotlinx:kotlin-jupyter-kernel:0.11.0-87")
 
