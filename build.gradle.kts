@@ -61,6 +61,8 @@ kotlin {
                 implementation("io.ktor:ktor-server-websockets:2.0.1")
                 implementation("io.ktor:ktor-serialization-kotlinx-json:2.0.1")
 
+                implementation("org.jetbrains.kotlin:kotlin-reflect:1.7.20-dev-853")
+
                 implementation("ch.qos.logback:logback-classic:1.2.11")
 
                 implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2")

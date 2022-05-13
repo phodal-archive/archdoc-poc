@@ -4,7 +4,9 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class ReplResult(
-    val resultValue: String
+    var resultValue: String,
+    var isArchdocApi: Boolean = false,
+    var className: String = "",
 )
 
 // todo: setup websocket server
@@ -21,9 +23,18 @@ class ArchdocReplServer {
 
     fun eval(code: String, id: Int): ReplResult {
         val result = compiler.eval(code, null, id)
-
-        return ReplResult(
+        val replResult = ReplResult(
             result.resultValue.toString()
         )
+
+        // todo: return callback action
+        val className: String = result.resultValue?.javaClass?.name.orEmpty()
+        if (className.startsWith("org.archguard.dsl")) {
+            replResult.isArchdocApi = true
+        }
+
+        replResult.className = className
+
+        return replResult
     }
 }

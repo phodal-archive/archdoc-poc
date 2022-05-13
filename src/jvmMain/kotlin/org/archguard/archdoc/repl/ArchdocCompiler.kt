@@ -6,6 +6,7 @@ import org.jetbrains.kotlinx.jupyter.ReplForJupyterImpl
 import org.jetbrains.kotlinx.jupyter.api.Code
 import org.jetbrains.kotlinx.jupyter.libraries.EmptyResolutionInfoProvider
 import org.jetbrains.kotlinx.jupyter.messaging.DisplayHandler
+import org.jetbrains.kotlinx.jupyter.repl.EvalResult
 import java.io.File
 
 
