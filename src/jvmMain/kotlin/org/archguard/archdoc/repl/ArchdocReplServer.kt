@@ -1,12 +1,15 @@
 package org.archguard.archdoc.repl
 
 import kotlinx.serialization.Serializable
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
 
 @Serializable
 data class ReplResult(
     var resultValue: String,
     var isArchdocApi: Boolean = false,
     var className: String = "",
+    var actionData: String = "",
     var action: String = ""
 )
 
@@ -25,12 +28,21 @@ class ArchdocReplServer {
     fun eval(code: String, id: Int): ReplResult {
         // todo: return error results
         val result = compiler.eval(code, null, id)
+        val resultValue = result.resultValue
         val replResult = ReplResult(
-            result.resultValue.toString()
+            resultValue.toString()
         )
 
+        // handle action data
+        when(resultValue) {
+            is org.archguard.dsl.Action -> {
+                replResult.action = Json.encodeToString(resultValue)
+                replResult.actionData = resultValue.data
+            }
+        }
+
         // todo: return callback action
-        val className: String = result.resultValue?.javaClass?.name.orEmpty()
+        val className: String = resultValue?.javaClass?.name.orEmpty()
         if (className.startsWith("org.archguard.dsl")) {
             replResult.isArchdocApi = true
         }

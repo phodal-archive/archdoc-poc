@@ -56,6 +56,8 @@ kotlin {
         val jvmMain by getting {
             apply(plugin = "org.jetbrains.kotlin.jupyter.api")
             dependencies {
+                implementation("org.archguard.scanner:doc-executor:2.0.0-alpha.5")
+
                 implementation("io.ktor:ktor-server-core:2.0.1")
                 implementation("io.ktor:ktor-server-netty:2.0.1")
                 implementation("io.ktor:ktor-server-websockets:2.0.1")
