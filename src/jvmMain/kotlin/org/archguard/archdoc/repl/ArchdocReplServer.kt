@@ -1,8 +1,7 @@
 package org.archguard.archdoc.repl
 
 import kotlinx.serialization.Serializable
-import kotlinx.serialization.encodeToString
-import kotlinx.serialization.json.Json
+import org.archguard.dsl.Action
 
 @Serializable
 data class ReplResult(
@@ -10,7 +9,7 @@ data class ReplResult(
     var isArchdocApi: Boolean = false,
     var className: String = "",
     var actionData: String = "",
-    var action: String = ""
+    var action: Action? = null
 )
 
 // todo: setup websocket server
@@ -35,8 +34,8 @@ class ArchdocReplServer {
 
         // handle action data
         when(resultValue) {
-            is org.archguard.dsl.Action -> {
-                replResult.action = Json.encodeToString(resultValue)
+            is Action -> {
+                replResult.action = resultValue
                 replResult.actionData = resultValue.data
             }
         }
