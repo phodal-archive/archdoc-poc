@@ -33,8 +33,8 @@ fun Application.configureSockets() {
             id += 1
             try {
                 val codeEvalRequest = receiveDeserialized<CodeEvalRequest>()
-                val content = replServer.eval(codeEvalRequest.code, id).toString()
-                send(Json.encodeToString(content))
+                val result = replServer.eval(codeEvalRequest.code, id)
+                send(Json.encodeToString(result))
             } catch (e: Exception) {
                 println(e.localizedMessage)
             } finally {

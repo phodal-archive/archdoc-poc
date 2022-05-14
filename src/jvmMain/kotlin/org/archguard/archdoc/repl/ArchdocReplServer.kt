@@ -7,6 +7,7 @@ data class ReplResult(
     var resultValue: String,
     var isArchdocApi: Boolean = false,
     var className: String = "",
+    var action: String = ""
 )
 
 // todo: setup websocket server
@@ -22,6 +23,7 @@ class ArchdocReplServer {
     }
 
     fun eval(code: String, id: Int): ReplResult {
+        // todo: return error results
         val result = compiler.eval(code, null, id)
         val replResult = ReplResult(
             result.resultValue.toString()
