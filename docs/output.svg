@@ -1,0 +1,218 @@
+<svg viewBox="0 0 215.427734375 346.5625" style="max-width: 215.427734375px;" height="346.5625"
+     aria-labelledby="chart-title-mermaid-undefined chart-desc-mermaid-undefined" role="img"
+     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-undefined">
+    <title id="chart-title-mermaid-undefined"></title>
+    <desc id="chart-desc-mermaid-undefined"></desc>
+    <g>
+        <g class="output">
+            <g class="clusters"></g>
+            <g class="edgePaths">
+                <g style="opacity: 1;" id="L-application-domain" class="edgePath LS-application LE-domain">
+                    <path style="fill:none" marker-end="url(#arrowhead655)"
+                          d="M74.94084972645344,148.28125L78.06105966787787,152.44791666666666C81.18126960930229,156.61458333333334,87.42168949215115,164.94791666666666,94.26616997608392,173.28125C101.1106504600167,181.61458333333334,108.5591915450334,189.94791666666666,112.28346208754175,194.11458333333334L116.00773263005009,198.28125"
+                          class="path"></path>
+                    <defs>
+                        <marker orient="auto" markerHeight="6" markerWidth="8" markerUnits="strokeWidth" refY="5"
+                                refX="9" viewBox="0 0 10 10" id="arrowhead655">
+                            <path style="stroke-width: 1; stroke-dasharray: 1, 0;" class="arrowheadPath"
+                                  d="M 0 0 L 10 5 L 0 10 z"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g id="L-application-infrastructure" style="opacity: 1;"
+                   class="edgePath LS-application LE-infrastructure">
+                    <path style="fill:none" marker-end="url(#arrowhead656)"
+                          d="M53.29444105148629,148.28125L52.41854462623857,152.44791666666666C51.54264820099086,156.61458333333334,49.79085535049543,164.94791666666666,48.91495892524771,177.04296875C48.0390625,189.13802083333334,48.0390625,204.99479166666666,48.0390625,220.8515625C48.0390625,236.70833333333334,48.0390625,252.56510416666666,55.75943940918049,264.66015625C63.479816318360974,276.7552083333333,78.92057013672196,285.0885416666667,86.64094704590245,289.2552083333333L94.36132395508294,293.421875"
+                          class="path"></path>
+                    <defs>
+                        <marker orient="auto" markerHeight="6" markerWidth="8" markerUnits="strokeWidth" refY="5"
+                                refX="9" viewBox="0 0 10 10" id="arrowhead656">
+                            <path style="stroke-width: 1; stroke-dasharray: 1, 0;" class="arrowheadPath"
+                                  d="M 0 0 L 10 5 L 0 10 z"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g id="L-domain-infrastructure" style="opacity: 1;" class="edgePath LS-domain LE-infrastructure">
+                    <path style="fill:none" marker-end="url(#arrowhead657)"
+                          d="M136.181640625,243.421875L136.181640625,247.58854166666666C136.181640625,251.75520833333334,136.181640625,260.0885416666667,136.181640625,268.421875C136.181640625,276.7552083333333,136.181640625,285.0885416666667,136.181640625,289.2552083333333L136.181640625,293.421875"
+                          class="path"></path>
+                    <defs>
+                        <marker orient="auto" markerHeight="6" markerWidth="8" markerUnits="strokeWidth" refY="5"
+                                refX="9" viewBox="0 0 10 10" id="arrowhead657">
+                            <path style="stroke-width: 1; stroke-dasharray: 1, 0;" class="arrowheadPath"
+                                  d="M 0 0 L 10 5 L 0 10 z"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g id="L-interface-application" style="opacity: 1;" class="edgePath LS-interface LE-application">
+                    <path style="fill:none" marker-end="url(#arrowhead658)"
+                          d="M119.0234375,50.182948492320435L108.859375,54.84256124360036C98.6953125,59.50217399488029,78.3671875,68.82139949744014,68.203125,77.64767891538673C58.0390625,86.47395833333333,58.0390625,94.80729166666667,58.0390625,98.97395833333333L58.0390625,103.140625"
+                          class="path"></path>
+                    <defs>
+                        <marker orient="auto" markerHeight="6" markerWidth="8" markerUnits="strokeWidth" refY="5"
+                                refX="9" viewBox="0 0 10 10" id="arrowhead658">
+                            <path style="stroke-width: 1; stroke-dasharray: 1, 0;" class="arrowheadPath"
+                                  d="M 0 0 L 10 5 L 0 10 z"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g id="L-interface-domain" style="opacity: 1;" class="edgePath LS-interface LE-domain">
+                    <path style="fill:none" marker-end="url(#arrowhead659)"
+                          d="M161.8046875,53.140625L161.8046875,57.307291666666664C161.8046875,61.473958333333336,161.8046875,69.80729166666667,161.8046875,81.90234375C161.8046875,93.99739583333333,161.8046875,109.85416666666667,161.8046875,125.7109375C161.8046875,141.56770833333334,161.8046875,157.42447916666666,159.5603739838233,169.51953125C157.31606046764657,181.61458333333334,152.82743343529316,189.94791666666666,150.58311991911646,194.11458333333334L148.33880640293972,198.28125"
+                          class="path"></path>
+                    <defs>
+                        <marker orient="auto" markerHeight="6" markerWidth="8" markerUnits="strokeWidth" refY="5"
+                                refX="9" viewBox="0 0 10 10" id="arrowhead659">
+                            <path style="stroke-width: 1; stroke-dasharray: 1, 0;" class="arrowheadPath"
+                                  d="M 0 0 L 10 5 L 0 10 z"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g id="L-interface-infrastructure" style="opacity: 1;" class="edgePath LS-interface LE-infrastructure">
+                    <path style="fill:none" marker-end="url(#arrowhead660)"
+                          d="M183.45109617496715,53.140625L187.44720254163929,57.307291666666664C191.44330890831142,61.473958333333336,199.4355216416557,69.80729166666667,203.43162800832783,81.90234375C207.427734375,93.99739583333333,207.427734375,109.85416666666667,207.427734375,125.7109375C207.427734375,141.56770833333334,207.427734375,157.42447916666666,207.427734375,173.28125C207.427734375,189.13802083333334,207.427734375,204.99479166666666,207.427734375,220.8515625C207.427734375,236.70833333333334,207.427734375,252.56510416666666,201.18731449215113,264.66015625C194.9468946093023,276.7552083333333,182.4660548436046,285.0885416666667,176.22563496075574,289.2552083333333L169.98521507790687,293.421875"
+                          class="path"></path>
+                    <defs>
+                        <marker orient="auto" markerHeight="6" markerWidth="8" markerUnits="strokeWidth" refY="5"
+                                refX="9" viewBox="0 0 10 10" id="arrowhead660">
+                            <path style="stroke-width: 1; stroke-dasharray: 1, 0;" class="arrowheadPath"
+                                  d="M 0 0 L 10 5 L 0 10 z"></path>
+                        </marker>
+                    </defs>
+                </g>
+            </g>
+            <g class="edgeLabels">
+                <g style="opacity: 1;" transform="" class="edgeLabel">
+                    <g class="label" transform="translate(0,0)">
+                        <rect height="0" width="0" ry="0" rx="0"></rect>
+                        <foreignObject height="0" width="0">
+                            <div style="display: inline-block; white-space: nowrap;"
+                                 xmlns="http://www.w3.org/1999/xhtml">
+                                <span style="" class="edgeLabel L-LS-application' L-LE-domain"
+                                      id="L-L-application-domain"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g style="opacity: 1;" transform="" class="edgeLabel">
+                    <g class="label" transform="translate(0,0)">
+                        <rect height="0" width="0" ry="0" rx="0"></rect>
+                        <foreignObject height="0" width="0">
+                            <div style="display: inline-block; white-space: nowrap;"
+                                 xmlns="http://www.w3.org/1999/xhtml">
+                                <span style="" class="edgeLabel L-LS-application' L-LE-infrastructure"
+                                      id="L-L-application-infrastructure"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g style="opacity: 1;" transform="" class="edgeLabel">
+                    <g class="label" transform="translate(0,0)">
+                        <rect height="0" width="0" ry="0" rx="0"></rect>
+                        <foreignObject height="0" width="0">
+                            <div style="display: inline-block; white-space: nowrap;"
+                                 xmlns="http://www.w3.org/1999/xhtml">
+                                <span style="" class="edgeLabel L-LS-domain' L-LE-infrastructure"
+                                      id="L-L-domain-infrastructure"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g style="opacity: 1;" transform="" class="edgeLabel">
+                    <g class="label" transform="translate(0,0)">
+                        <rect height="0" width="0" ry="0" rx="0"></rect>
+                        <foreignObject height="0" width="0">
+                            <div style="display: inline-block; white-space: nowrap;"
+                                 xmlns="http://www.w3.org/1999/xhtml">
+                                <span style="" class="edgeLabel L-LS-interface' L-LE-application"
+                                      id="L-L-interface-application"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g style="opacity: 1;" transform="" class="edgeLabel">
+                    <g class="label" transform="translate(0,0)">
+                        <rect height="0" width="0" ry="0" rx="0"></rect>
+                        <foreignObject height="0" width="0">
+                            <div style="display: inline-block; white-space: nowrap;"
+                                 xmlns="http://www.w3.org/1999/xhtml">
+                                <span style="" class="edgeLabel L-LS-interface' L-LE-domain"
+                                      id="L-L-interface-domain"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g style="opacity: 1;" transform="" class="edgeLabel">
+                    <g class="label" transform="translate(0,0)">
+                        <rect height="0" width="0" ry="0" rx="0"></rect>
+                        <foreignObject height="0" width="0">
+                            <div style="display: inline-block; white-space: nowrap;"
+                                 xmlns="http://www.w3.org/1999/xhtml">
+                                <span style="" class="edgeLabel L-LS-interface' L-LE-infrastructure"
+                                      id="L-L-interface-infrastructure"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+            </g>
+            <g class="nodes">
+                <g style="opacity: 1;" transform="translate(58.0390625,125.7109375)" id="flowchart-application-536"
+                   class="node default">
+                    <rect class="label-container" height="45.140625" width="100.078125" y="-22.5703125" x="-50.0390625"
+                          ry="0" rx="0"></rect>
+                    <g transform="translate(0,0)" class="label">
+                        <g transform="translate(-40.0390625,-12.5703125)">
+                            <foreignObject height="25.140625" width="80.078125">
+                                <div style="display: inline-block; white-space: nowrap;"
+                                     xmlns="http://www.w3.org/1999/xhtml">application
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g transform="translate(136.181640625,220.8515625)" id="flowchart-domain-537" style="opacity: 1;"
+                   class="node default">
+                    <rect class="label-container" height="45.140625" width="72.4921875" y="-22.5703125" x="-36.24609375"
+                          ry="0" rx="0"></rect>
+                    <g transform="translate(0,0)" class="label">
+                        <g transform="translate(-26.24609375,-12.5703125)">
+                            <foreignObject height="25.140625" width="52.4921875">
+                                <div style="display: inline-block; white-space: nowrap;"
+                                     xmlns="http://www.w3.org/1999/xhtml">domain
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g transform="translate(136.181640625,315.9921875)" id="flowchart-infrastructure-539"
+                   style="opacity: 1;" class="node default">
+                    <rect class="label-container" height="45.140625" width="119.578125" y="-22.5703125" x="-59.7890625"
+                          ry="0" rx="0"></rect>
+                    <g transform="translate(0,0)" class="label">
+                        <g transform="translate(-49.7890625,-12.5703125)">
+                            <foreignObject height="25.140625" width="99.578125">
+                                <div style="display: inline-block; white-space: nowrap;"
+                                     xmlns="http://www.w3.org/1999/xhtml">infrastructure
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g transform="translate(161.8046875,30.5703125)" id="flowchart-interface-542" style="opacity: 1;"
+                   class="node default">
+                    <rect class="label-container" height="45.140625" width="85.5625" y="-22.5703125" x="-42.78125"
+                          ry="0" rx="0"></rect>
+                    <g transform="translate(0,0)" class="label">
+                        <g transform="translate(-32.78125,-12.5703125)">
+                            <foreignObject height="25.140625" width="65.5625">
+                                <div style="display: inline-block; white-space: nowrap;"
+                                     xmlns="http://www.w3.org/1999/xhtml">interface
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
