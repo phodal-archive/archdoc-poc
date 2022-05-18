@@ -28,11 +28,12 @@ UI with [https://github.com/jupyterlab/jupyterlab](https://github.com/jupyterlab
 - [x] Markdown Parser
   - [ ] ~~[Kotlin markdown](https://github.com/JetBrains/markdown)~~
   - [ ] ~~[flexmark-java](https://github.com/vsch/flexmark-java)~~
-  - [ ] prosemirror-markdown
+  - [ ] ~~prosemirror-markdown~~
 - [ ] Online GraphEngine
-  - [ ] ArchGuard Graph
+  - [x] with Mermaid
   - [ ] with D3.js ?
   - [ ] with Echart.js ?
+  - [ ] WebComponents support 
 
 DSL:
 
