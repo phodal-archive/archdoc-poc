@@ -1,11 +1,9 @@
 package org.archguard.archdoc
 
-import io.ktor.websocket.*
 import java.util.concurrent.atomic.*
 
-class Connection(val session: DefaultWebSocketSession) {
+class Connection {
     companion object {
         var lastId = AtomicInteger(0)
     }
-    val name = "user${lastId.getAndIncrement()}"
 }

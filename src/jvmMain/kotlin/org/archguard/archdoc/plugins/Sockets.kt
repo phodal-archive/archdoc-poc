@@ -28,7 +28,7 @@ fun Application.configureSockets() {
     routing {
         val connections = Collections.synchronizedSet<Connection?>(LinkedHashSet())
         webSocket("/") {
-            val thisConnection = Connection(this)
+            val thisConnection = Connection()
             connections += thisConnection
             id += 1
             try {
