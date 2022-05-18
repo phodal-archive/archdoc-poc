@@ -10,24 +10,25 @@ UI with [https://github.com/jupyterlab/jupyterlab](https://github.com/jupyterlab
 
 - [x] REPL tests
 - [x] basic DSL design
-- [ ] Frontend Samples
-   - [ ] [https://github.com/datalayer/jupyter-react](https://github.com/datalayer/jupyter-react)
+- [x] Frontend Samples
+   - [x] [https://github.com/datalayer/jupyter-react](https://github.com/datalayer/jupyter-react)
 - [ ] Archdoc Editor
-  - [ ] CodeMirror or Monaco Editor
-  - [ ] Parser: `marked`
+  - [x] CodeMirror or Monaco Editor
+  - [x] Parser: `marked`
   - [ ] Math: `mathjax2`
-- [ ] Archdoc Server
-  - [ ] Java kernel with [https://github.com/twosigma/beakerx](https://github.com/twosigma/beakerx)
-  - [ ] Zeppelin Interpreter
-  - [ ] Jupyter Kernel Server with Kotlin
-     - [ ] Kotlin Jupyter Protocol Server (Socket)
-  - [ ] Jupyter Protocol for frontend: [jmp](https://github.com/n-riesco/jmp)
-     - [ ] zeromq
-     - [ ] websocket
+- [x] Archdoc Server
+  - [x] ~~Java kernel with [https://github.com/twosigma/beakerx](https://github.com/twosigma/beakerx)~~
+  - [x] Zeppelin Interpreter
+  - [x] Jupyter Kernel Server with Kotlin
+     - [x] Kotlin Jupyter Protocol Server (Socket)
+  - [x] Jupyter Protocol for frontend: [jmp](https://github.com/n-riesco/jmp)
+     - [ ] ~~zeromq~~
+     - [x] websocket
   - [ ] magic (%) support (ext_plugins) (%%archdoc)
-- [ ] Markdown Parser
-  - [ ] [Kotlin markdown](https://github.com/JetBrains/markdown)
-  - [ ] [flexmark-java](https://github.com/vsch/flexmark-java)
+- [x] Markdown Parser
+  - [ ] ~~[Kotlin markdown](https://github.com/JetBrains/markdown)~~
+  - [ ] ~~[flexmark-java](https://github.com/vsch/flexmark-java)~~
+  - [ ] prosemirror-markdown
 - [ ] Online GraphEngine
   - [ ] ArchGuard Graph
   - [ ] with D3.js ?
